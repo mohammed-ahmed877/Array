@@ -120,17 +120,29 @@ console.log(city[4]);
 
 
 // 4 Create an array of 4 animals and print the second animal.
+let animal= ["loin","elefant","dinasor","rabet"]
+console.log(animal[2]);
+
 
 // 5 Create an array of 5 colors and print the first color.
+let color= ["blue","white","purple","orang"]
+console.log(color[0]);
 
 // 6 Create an array of 3 countries and print the last country.
+let country=["pakistan","germany","france"]
+console.log(country[2]);
 
 // 7.Create an array of numbers and print the third number.
+let number= ["30","70","50","10"]
+console.log(number[2]);
 
 
 
 // Little More Practice 🚀
 // 11. Create an array of 5 movies and print movie number 4.
+let movie = ["satrangi","ertugrul Ghazi","sultan salhudin ","osman","sultan abdul hamid "]
+console.log(movie[3]);
+
 
 // 12. Create an array of mobile brands and change one value.
 
@@ -142,13 +154,6 @@ console.log(city[4]);
 
 
 
-
-
-let fruits = ["Apple", "Mango", "Banana", "Orange", "Grapes"];
-
-fruits.reverse();
-
-console.log(fruits);
 
 
 
