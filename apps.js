@@ -5,15 +5,6 @@
 
 // These are the most important array methods for beginners 👇
 
-// 1. push()
-// Adds value at the end of array.
-// let fruits = ["Apple", "Mango"];
-// fruits.push("Banana");
-// console.log(fruits);
-// Output:
-// ["Apple", "Mango", "Banana"]
-
-
 
 
 // 2. pop()
@@ -105,55 +96,203 @@
 // Simple Array Practice Questions
 
 // 1. Create an array of 5 fruits and print the whole array.
-let array=["mango","banana","stawbery","sharifa","water mallon ","kahr boza"]
-console.log(array)
+// let array=["mango","banana","stawbery","sharifa","water mallon ","kahr boza"]
+// console.log(array)
 
 
 // 2. Create an array of 5 numbers and print the first value.
-let num = [10,"30","35","40","65"]
-console.log(num);
+// let num = [10,"30","35","40","65"]
+// console.log(num);
 
 // 3.Create an array of cities and print the last city.
-const  city =["Quetta","lahor","punjab","faisalabd","mastung"]
-console.log(city[4]);
+// const  city =["Quetta","lahor","punjab","faisalabd","mastung"]
+// console.log(city[4]);
 
 
 
 // 4 Create an array of 4 animals and print the second animal.
-let animal= ["loin","elefant","dinasor","rabet"]
-console.log(animal[2]);
+// let animal= ["loin","elefant","dinasor","rabet"]
+// console.log(animal[2]);
 
 
 // 5 Create an array of 5 colors and print the first color.
-let color= ["blue","white","purple","orang"]
-console.log(color[0]);
+// let color= ["blue","white","purple","orang"]
+// console.log(color[0]);
 
 // 6 Create an array of 3 countries and print the last country.
-let country=["pakistan","germany","france"]
-console.log(country[2]);
+// let country=["pakistan","germany","france"]
+// console.log(country[2]);
 
 // 7.Create an array of numbers and print the third number.
-let number= ["30","70","50","10"]
-console.log(number[2]);
+// let number= ["30","70","50","10"]
+// console.log(number[2]);
 
 
 
 // Little More Practice 🚀
 // 11. Create an array of 5 movies and print movie number 4.
-let movie = ["satrangi","ertugrul Ghazi","sultan salhudin ","osman","sultan abdul hamid "]
-console.log(movie[3]);
-
-
-// 12. Create an array of mobile brands and change one value.
-
-// 13. Create an array of 5 students and print each student using for loop.
-
-// 14. Create an array of fruits and check if "Apple" exists using includes().
-
-// 15. Create an array of colors and find the index of "Black".
+// let movie = ["satrangi","ertugrul Ghazi","sultan salhudin ","osman","sultan abdul hamid "]
+// console.log(movie[3]);
 
 
 
+// 1. push()
+// Adds value at the end of array.
+// let fruits = ["Apple", "Mango"];
+// fruits.push("Banana");
+// console.log(fruits);
+// Output:
+// ["Apple", "Mango", "Banana"]
+
+
+
+
+// push 
+// Use push() to add "orange" to the array.
+// let fruits = ["apple", "banana", "mango"];
+// fruits.push("orange");
+// console.log(fruits);
+
+
+
+
+// Use push() to add 40 and 50 to the array.
+// let numbers = [10, 20, 30];
+// numbers.push(40,50)
+// console.log(numbers);
+
+// Use push() to add "blue" at the end of the array.
+// let colors = ["red", "green"];
+// colors.push("blue");
+// console.log(colors);
+
+
+// Use push() to add "Karachi" and "Lahore" to the array.
+// let cities = ["Islamabad"];
+// cities.push("karachi","lahore")
+// console.log(cities);
+
+// Use push() to add true to the array.
+// let values = [1, 2, 3];
+// values.push("true");
+// console.log(values);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// splice practice 
+// Use splice() to remove "orange" from the array.
+// let fruits = ["apple", "banana", "orange", "mango"];
+
+
+
+
+
+// Use splice() to add "white" at index 2.
+// let colors = ["red", "blue", "green"];
+
+
+
+
+
+// Use splice() to replace "Ali" with "Ahmed".
+// let names = ["Hamza", "Ali", "Usman"];
+
+
+// Use splice() to remove 2 elements starting from index 1.
+// let numbers = [1, 2, 3, 4, 5];
+
+
+
+// Use splice() to add "Math" and "Science" at the start of the array.
+// let subjects = ["English", "Computer"];
 
 
 
