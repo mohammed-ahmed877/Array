@@ -244,22 +244,34 @@
 // console.log(countries);
 
 // Check array length after using unshift().
-let arr = ["middle", "end"];
-arr.unshift("start");
-console.log(arr.length);
+// let arr = ["middle", "end"];
+// arr.unshift("start");
+// console.log(arr.length);
 // 5. slice() (IMPORTANT)
 
 // Extract first 2 elements from an array.
+// let fruits = ["Apple", "Mango", "Banana", "Orange"];
+// let result = fruits.slice(0,2);
+// console.log(result);
 
 // Extract last 3 elements from a numbers array.
+// let num = [10, 20, 30, 40, 50];
+// let result= num.slice(0,2)
+// console.log(result);
 
 // Copy an entire array using slice().
-
+// let arr = ["A", "B", "C", "D"];
+// let copy = arr.slice();
+// console.log(copy);
 // Extract elements from index 1 to 3.
-
+// let fruits = ["Apple", "Mango", "Banana", "Orange", "Grapes"];
+// let result = fruits.slice(1, 4);
+// console.log(result);
 // Extract a part of array without changing original array.
-
-
+// let colors = ["Red", "Green", "Blue", "Yellow", "Purple"];
+// let result = colors.slice(2, 4);
+// console.log(result);
+// console.log(colors);
 
 
 
