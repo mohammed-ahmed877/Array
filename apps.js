@@ -136,129 +136,128 @@
 
 
 
-// 1. push()
-// Adds value at the end of array.
-// let fruits = ["Apple", "Mango"];
-// fruits.push("Banana");
-// console.log(fruits);
-// Output:
-// ["Apple", "Mango", "Banana"]
+// 1. push() Adds value at the end of array.
+// let arr =["ali", "usman ", "mohammed ahmed ", ];
+// arr .push("abdul hadi");
+// console.log(arr);
+
+//2. push  Use push() to add "orange" to the array.
+// let fruites = ["mango","banan" ,"pinapple"]
+// fruites.push("orange ")
+// console.log(fruites);
+
+// 3.Use push() to add 40 and 50 to the array.
+
+// let num = ["10" , "20" ,"30 "]
+// num .push("40","50")
+// console.log(num );
+
+// 4. Use push() to add "blue" at the end of the array.
 
 
 
+// 5. Use push() to add "Karachi" and "Lahore" to the array.
+// let city = ["quetta ","islambad","balochistan "]
+// city . push("karachi","lahore")
+// console.log(city);
 
-// push 
-// Use push() to add "orange" to the array.
-// let fruits = ["apple", "banana", "mango"];
-// fruits.push("orange");
-// console.log(fruits);
+// 6. Use push() to add true to the array.
+// let tru=["hey ","false","hooo"]
+// tru.push("true")
+// console.log(tru);
 
 
+// 2. pop()
+// // Remove the last element from a fruits array.
+// let fruites = ["mango","banan" ,"pinapple"]
+// fruites.pop()
+// console.log(fruites);
 
 
-// Use push() to add 40 and 50 to the array.
-// let numbers = [10, 20, 30];
-// numbers.push(40,50)
-// console.log(numbers);
+// Remove last number from [10, 20, 30, 40].
+// let num = ["10" , "20" ,"30 ","40"]
+// num.pop()
+// console.log(num);
+// Remove last city from a cities array.
+// let city = ["quetta ","islambad","balochistan "]
+// city.pop()
+// console.log(city);
 
-// Use push() to add "blue" at the end of the array.
-// let colors = ["red", "green"];
-// colors.push("blue");
+// Use pop() twice on the same array.
+// let names = ["Ali", "Usman", "Ahmed", "Hamza"];
+// names.pop();
+// names.pop();
+// console.log(names);
+// Store the removed element in a variable.
+// let colors = ["red", "blue", "green"];
+// let remove = colors.pop()
 // console.log(colors);
-
-
-// Use push() to add "Karachi" and "Lahore" to the array.
-// let cities = ["Islamabad"];
-// cities.push("karachi","lahore")
-// console.log(cities);
-
-// Use push() to add true to the array.
-// let values = [1, 2, 3];
-// values.push("true");
-// console.log(values);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(remove);
+
+// 3. shift()
+
+// Remove first element from ["A", "B", "C"].
+// let alpha=["A", "B", "C"];
+// alpha.shift()
+// console.log(alpha);
+
+// Remove first number from [5, 10, 15].
+// let num = [10,2,3,0]
+// num.shift()
+// console.log(num);
+
+// Store removed value in a variable.
+// let num = ["hadi","ali ","ahmed "]
+// let remove=num.shift()
+// console.log(num)
+// console.log(remove);
+
+
+// Remove first item from names array.
+// let names = ["Ali", "Usman", "Ahmed", "Hamza"];
+// names.shift();
+// console.log(names);
+// Apply shift() twice on an array.
+// let names = ["Ali", "Usman", "Ahmed", "Hamza"];
+// names.shift();
+// names.shift();
+// console.log(names);
+// 4. unshift()
+
+// Add "start" at the beginning of an array.
+// let arr = ["middle", "end"];
+// arr.unshift("shift")
+// console.log(arr);
+
+// Add 0 at the start of a numbers array.
+// let num = [10, 20, 30];
+// num.unshift(0)
+// console.log(num);
+// Add "Pakistan" at the start of countries array.
+// let countries = ["India", "USA", "UK"];
+// countries.unshift("Pakistan");
+// console.log(countries);
+
+// Add two values at the beginning of an array.
+// let countries = ["India", "USA", "UK"];
+// countries.unshift("China", "Russia");
+// console.log(countries);
+
+// Check array length after using unshift().
+let arr = ["middle", "end"];
+arr.unshift("start");
+console.log(arr.length);
+// 5. slice() (IMPORTANT)
+
+// Extract first 2 elements from an array.
+
+// Extract last 3 elements from a numbers array.
+
+// Copy an entire array using slice().
+
+// Extract elements from index 1 to 3.
+
+// Extract a part of array without changing original array.
 
 
 
@@ -270,30 +269,34 @@
 // splice practice 
 // Use splice() to remove "orange" from the array.
 // let fruits = ["apple", "banana", "orange", "mango"];
-
-
-
-
+// fruits. splice(2,1);
+// console.log(fruits);
 
 // Use splice() to add "white" at index 2.
 // let colors = ["red", "blue", "green"];
+// colors .splice(2,0 ,"white");
+// console.log(colors);
 
 
 
 
-
-// Use splice() to replace "Ali" with "Ahmed".
+// // Use splice() to replace "Ali" with "Ahmed".
 // let names = ["Hamza", "Ali", "Usman"];
+// names.splice(1,1 ,"Ahmed")
+// console.log(names);
 
 
 // Use splice() to remove 2 elements starting from index 1.
 // let numbers = [1, 2, 3, 4, 5];
+// numbers.splice(1,2)
+// console.log(numbers);
 
 
 
 // Use splice() to add "Math" and "Science" at the start of the array.
 // let subjects = ["English", "Computer"];
-
+// subjects.splice(0,0,"math","scence")
+// console.log(subjects);
 
 
 
